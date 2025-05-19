@@ -76,22 +76,14 @@ header {
 background-color: #93AEC1;
  }
 
- /*imagen de empresa*/
+ /*Logo de empresa*/
  .icono {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: baseline;
-    justify-content: flex-start;
-    background-color: #ffffff;
-    width: 80px;
+    padding-left: flex;
+    padding-right: wrap;
+    width: 70px;
     height: 50px;
- }
+}
 
- .icono img {
-   width: 8%;
-    border-radius: 10px;
- }
 
 /*----------------*/
 /*estilo de grid*/
