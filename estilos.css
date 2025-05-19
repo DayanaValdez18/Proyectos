@@ -301,9 +301,65 @@ background-color: #93AEC1;
 
  /*footer siempre abajo*/
  footer {
-    background-color: #93AEC1;
-    color: white;
+    background-color: #6b6b6b;
+    color: #EC6A52;
     text-align: center;
     padding: 20px 0;
     font-size: 14px
  }
+
+ .footer-container {
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 40px;
+}
+
+.footer-logo h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.footer-logo p {
+    font-size: 14px;
+    color: #ccc;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 10px;
+}
+
+.footer-links ul li a {
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-links ul li a:hover {
+    color: #445bf0;
+}
+
+.footer-social a {
+    margin-right: 15px;
+    color: #ccc;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.footer-social a:hover {
+    color: #5a5ae8;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #777;
+}
+
